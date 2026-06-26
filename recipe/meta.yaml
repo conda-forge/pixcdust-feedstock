@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pixcdust-{{ version }}.tar.gz
-  sha256: D868D97E0557AF16FA4AA700E81BAC3062E92814D9946455B68E652B0BB3DC91
+  sha256: d868d97e0557af16fa4aa700e81bac3062e92814d9946455b68e652b0bb3dc91
 
 build:
   noarch: python
