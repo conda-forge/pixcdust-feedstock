@@ -27,7 +27,7 @@ requirements:
     - fiona >=1.9.5
     - pandas >=2.2.0
     - geopandas >=0.14.3,<0.15.0
-    - xdggs >=0.2.0
+    - xdggs >=0.2.0, <0.3.0
     - h3-py >=3.7.6,<4.0.0
     - xarray >=2024.2.0,<2025.0.0
     - shapely >=2.0.3
