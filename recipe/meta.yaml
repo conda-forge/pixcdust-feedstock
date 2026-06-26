@@ -44,8 +44,8 @@ requirements:
     - folium >=0.16.0,<0.17.0
     - branca >=0.7.2,<0.8.0
     - xvec >=0.3.0,<0.4.0
-    - astropy  >= 6.1.7,<6.2.0
-    - astropy-healpix >= 1.1.0, <1.2.0
+    - astropy >=6.1.7,<6.2.0
+    - astropy-healpix >=1.1.0, <1.2.0
 
 
 
