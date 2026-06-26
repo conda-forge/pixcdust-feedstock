@@ -1,6 +1,6 @@
 {% set name = "pixcdust" %}
-{% set version = "0.1.2" %}
-{% set python_min = "3.10" %}
+{% set version = "0.2.0" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -22,25 +22,24 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy >=1.26.4,<2.0.0
+    - numpy >=2.0.0,<3.0.0
     - scipy >=1.8.0
     - fiona >=1.9.5
     - pandas >=2.2.0
-    - geopandas >=0.14.3
-    - xdggs >=0.2.0, <0.3.0
+    - geopandas >=1.1.3
+    - xdggs >=0.6.0, <1.0.0
     - h3-py >=3.7.6,<4.0.0
     - xarray >=2024.2.0,<2025.0.0
     - shapely >=2.0.3
-    - black >=24.2.0, <25.0.0
-    - flake8 >=7.0.0
     - click >=8.1.7
     - zarr >=2.11,<3.0
-    - zcollection >=2024.2.0,<2025.0.0
+    - zcollection =2026.6.0
     - netcdf4 >=1.6.5
     - tqdm >=4.66.4
     - pyogrio >=0.8.0,<0.9.0
     - pyarrow >=16.1.0,<17.0.0
-    - eodag >=2.12.1,<3.0.0
+    - py-hydroweb >= 1.2.0
+    - eodag >=4.4.0,<5.0.0
     - folium >=0.16.0,<0.17.0
     - branca >=0.7.2,<0.8.0
     - xvec >=0.3.0,<0.4.0
